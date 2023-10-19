@@ -127,9 +127,15 @@
         width: 50%;
         height: 100%;
     }
+    .info__left--icon{
+        margin-top: 18px;
+    }
     .info__right{
         width: 50%;
         height: 100%;
+    }
+    .info__right--icon{
+        margin-bottom: 20px;
     }
     .info__right--weathericon{
         width: 50px;
@@ -163,12 +169,15 @@
         margin-top: 15px;
         margin-bottom: 13.2px;
     }
-    .info__right{
-        padding-bottom: 20px;
-    }
     .info__left--title{
         margin-top: 7px;
         font-size: 20px;
+    }
+    .info__right{
+        padding-bottom: 20px;
+    }
+    .info__right--icon{
+        margin-bottom: 10px;
     }
     .info__map{
         top: 640px;
