@@ -1,7 +1,11 @@
 # 6-team
 
-Neal → 地圖
-Angie → 地圖
-kvch → 定位／最愛／今日白天
-LinkHsu → 今晚明晨／明天白天
-Hsiuyu → 刻模板（含RWD）、開 host repository
+📍 成果連結：
+https://siouyu.github.io/6-team/
+
+📍 分工表：
+Neal → 地圖功能
+Angie → 地圖功能
+kvch → 定位／最愛功能
+LinkHsu → 天氣面板 API 資料擷取
+Hsiuyu → 刻模板（含 RWD）、開 host repository
