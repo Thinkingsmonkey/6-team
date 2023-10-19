@@ -26,10 +26,10 @@ const mapIconLocation = {
     "桃園市":"translate(400px,190px)",
     "南投縣":"translate(420px,420px)",
     "高雄市":"translate(250px,600px)",
-    "金門縣":"translate(30px,280px)",
+    "金門縣":"translate(200px,280px)",
     "屏東縣":"translate(300px,700px)",
     "基隆市":"translate(570px,170px)",
-    "澎湖縣":"translate(150px,450px)",
+    "澎湖縣":"translate(180px,500px)",
     "彰化縣":"translate(280px,380px)",
     "連江縣":"translate(200px,20px)"
 }
@@ -51,12 +51,12 @@ const mapIconLocationforSmallScreen = {
     "桃園市":"translate(270px,150px)",
     "南投縣":"translate(280px,310px)",
     "高雄市":"translate(170px,450px)",
-    "金門縣":"translate(60px,230px)",
+    "金門縣":"translate(150px,230px)",
     "屏東縣":"translate(200px,500px)",
     "基隆市":"translate(380px,130px)",
-    "澎湖縣":"translate(80px,350px)",
+    "澎湖縣":"translate(120px,400px)",
     "彰化縣":"translate(180px,280px)",
-    "連江縣":"translate(200px,50px)"
+    "連江縣":"translate(250px,50px)"
 }
 
 
@@ -78,7 +78,7 @@ function loadMapData() {
             img.style.position = 'absolute';
             img.style.top = "0px";
             img.style.cursor="pointer";
-            img.style.filter = "drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7))";
+            img.style.filter = "drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.4))";
             renderInfor(mapLocationName, img);
             img.style.transform = mapIconLocation[mapLocationName];
             img.className=mapLocationName;
@@ -93,4 +93,3 @@ function loadMapData() {
 }
 
 window.onload = loadMapData;
-
